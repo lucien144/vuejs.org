@@ -1,82 +1,84 @@
 # vuejs.org
 
-This site is built with [hexo](http://hexo.io/). Site content is written in Markdown format located in `src`. Pull requests welcome!
+Tento web je postaven pomocí [hexo](http://hexo.io/). Obsah webu je napsán formátem Markdown, který je umístěn v `src`. Pull requesty jsou vítány! 
 
-## Developing
+## Programování
 
 ``` bash
 $ npm install
 $ npm start # dev server at http://localhost:4000
 ```
 
-## Deploying
+## Rozmístění 
 
-The site is automatically deployed when commits land in `master`, via [Netlify](https://www.netlify.com/).
+Web je automaticky rozmístěn když commit kódu přistane v `master`, přes [Netlify](https://www.netlify.com/).
+[Netlify](https://www.netlify.com/) automaticky rozmístí kód, když je commit umístěn v `master`.
 
-If you are the maintainer of a community translation fork and would like to deploy via Netlify instead of GitHub pages, please ping @yyx990803 in an issue to request a Netlify team membership and DNS update.
+Pokud jste udržovatel komunitní překladové odnože a chcete umístit kód za pomoci Netlify místo Github stránek, požádejte @yyx990803 
+o členství v Netlify týmu a DNS aktualizaci vytvořením problému v Github.
 
-## On Translations
+## O překladech
 
-Translation for this documentation project are currently maintained in separate repositories forked from this original one.
+Překlad této dokumentace je v současné době udržován v samostatném úložišti, které je oddělené od tohoto původního.
 
-### French
+### Francouzstina
 
-French translation is maintained by Vuejs-FR.
+Překlad do francouzštiny je udržován Vuejs-FR.
 
-* Translation Repo — [/vuejs-fr/vuejs.org](https://github.com/vuejs-fr/vuejs.org)
+* Úložiště překladu — [/vuejs-fr/vuejs.org](https://github.com/vuejs-fr/vuejs.org)
 
-### Italian
+### Italština
 
-* Translation Repo - [/vuejs/it.vuejs.org](https://github.com/vuejs/it.vuejs.org)
+* Úložiště překladu - [/vuejs/it.vuejs.org](https://github.com/vuejs/it.vuejs.org)
 
-### Japanese
+### Japonština
 
-Japanese translation is maintained by [Vue.js japan user group](https://github.com/vuejs-jp)
+Překlad do japonštiny je udržován [Vue.js japan user group](https://github.com/vuejs-jp)
 
-* Translation Repo - [/vuejs/jp.vuejs.org](https://github.com/vuejs/jp.vuejs.org)
-* Primary maintainer - [kazupon](https://github.com/kazupon)
+* Úložiště překladu - [/vuejs/jp.vuejs.org](https://github.com/vuejs/jp.vuejs.org)
+* Hlavní udržovatel - [kazupon](https://github.com/kazupon)
 
-### Korean
+### Korejština
 
-Korean translation is maintained by [Vue.js Korean User group](https://github.com/vuejs-kr).
+Překlad do korejštiny je udržován [Vue.js Korean User group](https://github.com/vuejs-kr).
 
-* Translation Repo - [/vuejs-kr/kr.vuejs.org](https://github.com/vuejs-kr/kr.vuejs.org)
-* Primary maintainer - [ChangJoo Park](https://github.com/ChangJoo-Park)
+* Úložiště překladu - [/vuejs-kr/kr.vuejs.org](https://github.com/vuejs-kr/kr.vuejs.org)
+* Hlavní udržovatel - [ChangJoo Park](https://github.com/ChangJoo-Park)
 
-### Mandarin
+### Mandarinská čínština
 
-* Translation Repo - [/vuejs/cn.vuejs.org](https://github.com/vuejs/cn.vuejs.org)
+* Úložiště překladu - [/vuejs/cn.vuejs.org](https://github.com/vuejs/cn.vuejs.org)
 
-### Português-Br
+### Brazilská portugalština
 
-Português-Br translation is maintained by [Vuejs-Br](https://github.com/vuejs-br).
+Překlad do brazilske portugalštiny je udržován [Vuejs-Br](https://github.com/vuejs-br).
 
-* Translation Repo - [/vuejs-br/br.vuejs.org](https://github.com/vuejs-br/br.vuejs.org)
+* Úložiště překladu - [/vuejs-br/br.vuejs.org](https://github.com/vuejs-br/br.vuejs.org)
 
-### Russian
+### Ruština
 
-Russian translation is maintained by Translation Gang.
+Překlad do ruštiny je udržován Translation Gang.
 
-* Translation Repo — [/translation-gang/ru.vuejs.org](https://github.com/translation-gang/ru.vuejs.org)
-* Primary maintainer - [Grigoriy Beziuk](https://gbezyuk.github.io)
+* Úložiště překladu — [/translation-gang/ru.vuejs.org](https://github.com/translation-gang/ru.vuejs.org)
+* Hlavní udržovatel - [Grigoriy Beziuk](https://gbezyuk.github.io)
 
 ### Spanish
 
-Spanish translation is maintained by VueJS-ES.
+Překlad do španělštiny je udržován by VueJS-ES.
 
-* Translation Repo - [/vuejs-es/vuejs.org](https://github.com/vuejs-es/vuejs.org)
+* Úložiště překladu - [/vuejs-es/vuejs.org](https://github.com/vuejs-es/vuejs.org)
 
-### Persian (Farsi)
+### Perština (Farsi)
 
-Persian translation is maintained by VueJS-fa.
+Překlad do perštiny je udržován by VueJS-fa.
 
-* Translation Repo - [/vuejs-fa/fa.vuejs.org](https://github.com/vuejs-fa/fa.vuejs.org)
-* Primary maintainer - [Pooya Parsa](https://github.com/pi0)
+* Úložiště překladu - [/vuejs-fa/fa.vuejs.org](https://github.com/vuejs-fa/fa.vuejs.org)
+* Hlavní udržovatel - [Pooya Parsa](https://github.com/pi0)
 
-### Want to help with the translation?
+### Chcete pomoci s překládáním?
 
-If you feel okay with translating sorta alone, you can fork the repo, create a "work-in-progress" issue to inform others that you're doing the translation, and go for it.
+Pokud chcete překládat sami, můžete vytvořit oddělené úložiště. Potom vytvořte "work-in-progress" oznámení, že pracujete na překladu a jděte do toho.
 
-If you are more of a team player, Translation Gang might be for you. Let us know somehow that you're ready to join this international open-source translators community. Feel free to contact [Grigoriy Beziuk](https://gbezyuk.github.io) or anybody else from [the team](https://github.com/orgs/translation-gang/people).
+Pokud chcete pracovat v týmu, Translation Gang by mohl být pro Vás. Dejte nám nějak znát, že jste připraveni se připojit do této mezinárodní překladatelské komunity. Můžete se spojit s [Grigoriyem Beziukem](https://gbezyuk.github.io) nebo s kýmkoliv z [týmu](https://github.com/orgs/translation-gang/people).
 
-And thank you in advance ;)
+A předem Vám děkujeme ;)

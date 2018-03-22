@@ -4,24 +4,13 @@
       <%- partial('partials/main_menu', { context: 'sidebar' }) %>
     </ul>
     <div class="list">
-      <div class="main-sponsor">
-        <span>Platinum Sponsors</span>
-        <div>
-        <%_ for (const sponsor of theme.platinum_sponsors) {_%>
-        <a href="<%- sponsor.url %>" target="_blank" class="logo">
-          <img src="<%- url_for(`/images/${sponsor.img}`) %>">
-        </a>
-        <%_ } _%>
-        </div>
-      </div>
-      <a class="become-backer" href="<%- url_for("/support-vuejs") %>">
-        Become a Sponsor
-      </a>
+      <%- partial('partials/sponsors_sidebar') %>
       <h2>
         <% titles = {
           api: 'API',
           examples: 'Examples',
           guide: 'Guide',
+          cookbook: 'Cookbook<sup class="beta">beta</sup>',
           'style-guide': 'Style Guide<sup class="beta">beta</sup>'
         } %>
         <%- titles[type] %>

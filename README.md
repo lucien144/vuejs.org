@@ -37,6 +37,9 @@ Překlad do japonštiny je udržován [Vue.js japan user group](https://github.c
 
 * Úložiště překladu - [/vuejs/jp.vuejs.org](https://github.com/vuejs/jp.vuejs.org)
 * Hlavní udržovatel - [kazupon](https://github.com/kazupon)
+* Secondary Maintainers:
+    * [re-fort](https://github.com/re-fort)
+    * [potato4d](https://github.com/potato4d)
 
 ### Korejština
 

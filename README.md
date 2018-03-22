@@ -1,6 +1,6 @@
 # vuejs.org
 
-Tento web je postaven pomocí [hexo](http://hexo.io/). Obsah webu je napsán formátem Markdown, který je umístěn v `src`. Pull requesty jsou vítány! 
+Tento web je postaven pomocí [hexo](http://hexo.io/). Obsah webu je napsán formátem Markdown, který je umístěn v `src`. Pull requesty jsou vítány!
 
 ## Programování
 
@@ -9,12 +9,12 @@ $ npm install
 $ npm start # dev server at http://localhost:4000
 ```
 
-## Rozmístění 
+## Rozmístění
 
 Web je automaticky rozmístěn když commit kódu přistane v `master`, přes [Netlify](https://www.netlify.com/).
 [Netlify](https://www.netlify.com/) automaticky rozmístí kód, když je commit umístěn v `master`.
 
-Pokud jste udržovatel komunitní překladové odnože a chcete umístit kód za pomoci Netlify místo Github stránek, požádejte @yyx990803 
+Pokud jste udržovatel komunitní překladové odnože a chcete umístit kód za pomoci Netlify místo Github stránek, požádejte @yyx990803
 o členství v Netlify týmu a DNS aktualizaci vytvořením problému v Github.
 
 ## O překladech
@@ -37,6 +37,9 @@ Překlad do japonštiny je udržován [Vue.js japan user group](https://github.c
 
 * Úložiště překladu - [/vuejs/jp.vuejs.org](https://github.com/vuejs/jp.vuejs.org)
 * Hlavní udržovatel - [kazupon](https://github.com/kazupon)
+* Vedlejší udržovatelé:
+    * [re-fort](https://github.com/re-fort)
+    * [potato4d](https://github.com/potato4d)
 
 ### Korejština
 
